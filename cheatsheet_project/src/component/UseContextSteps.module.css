@@ -1,0 +1,33 @@
+.main_title_steps {
+  text-align: center;
+  font-size: 4rem;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+}
+.main_subtitle_steps {
+  text-align: center;
+  color: black;
+}
+
+.title_sections_steps {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: rgba(255, 167, 3, 0.599);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* p {
+  font-size: 1.5rem;
+} */
+
+.hidden_message {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 1rem;
+  text-align: center;
+  column-gap: 1rem;
+}
