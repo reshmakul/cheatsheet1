@@ -1,14 +1,15 @@
+// import "../css/maiwand.module.css";
 import "../css/maiwand.module.css";
 
 const Maiwand = () => {
   return (
-    <div className="main" style={{ backgroundColor: "#506D7B" }}>
+    <div className="main_maiwand" style={{ backgroundColor: "#506D7B" }}>
       <div className="div_container">
-        <h1>React Router CheatSheet</h1>
+        <h1 className="h1_container">React Router CheatSheet</h1>
       </div>
       <div className="full_container">
         <p>
-          <h2>What is React Router?</h2>
+          <h2 className="h2_container">What is React Router?</h2>
         </p>
         <p className="mainparagraph">
           Changes the conventional routing , of rendering/fetching multiple html
@@ -26,14 +27,14 @@ const Maiwand = () => {
             within your project directory:
           </p>
         </p>
-        <img cls src="/install.png" alt="install router" />
+        <img src="/install.png" alt="install router" className="img_maiwand" />
         <p>
           After successfully installing the package, we can now set up and
           configure react-router within our project.
         </p>
       </div>
       <div className="full_container">
-        <h3>How to Setup React Router</h3>
+        <h3 className="h3_container">How to Setup React Router</h3>
         <p className="mainparagraph">
           To configure React router, navigate to the <b>index.js </b> file,
           which is the root file, and import <b>BrowserRouter </b> from the
@@ -41,10 +42,10 @@ const Maiwand = () => {
           package that we installed, wrapping it around our App component as
           follows:
         </p>
-        <img src="/01.png" />
+        <img src="/01.png" className="img_maiwand" />
       </div>
       <div className="full_container">
-        <h3>How to Configure Routes In React</h3>
+        <h3 className="h3_container">How to Configure Routes In React</h3>
         <p className="mainparagraph">
           We have now successfully installed and imported React router into our
           project; the next step is to use React router to implement routing.
@@ -56,7 +57,7 @@ const Maiwand = () => {
           can now set up and configure our routes in the <b>App.js </b> file,
           which serves as the foundation for our React application:
         </p>
-        <img src="/02.png" />
+        <img src="/02.png" className="img_maiwand" />
       </div>
       <div className="full_container">
         <p className="mainparagraph">
@@ -103,7 +104,7 @@ const Maiwand = () => {
       </div>
       <div className="full_container">
         <p>Let’s now add Links to the NavBar this way:</p>
-        <img src="/04.png" />
+        <img src="/04.png" className="img_maiwand" />
       </div>
       <div className="full_container">
         <p className="mainparagraph">
@@ -132,7 +133,7 @@ const Maiwand = () => {
           The <b> NavLink </b> component will now replace the<b> Link </b>
           component in the <b>NavBar </b>:
         </p>
-        <img src="/05.png" />
+        <img src="/05.png" className="img_maiwand" />
       </div>
       <div className="full_container">
         <p className="mainparagraph">
@@ -140,7 +141,7 @@ const Maiwand = () => {
           interface until we style the active class added, which can be done
           however you wish, but here is an example of the styling I used:
         </p>
-        <img src="06.png" />
+        <img src="06.png" className="img_maiwand" />
       </div>
 
       <div className="full_container">
@@ -155,7 +156,7 @@ const Maiwand = () => {
           This can be fixed by configuring a new route to return a specific
           component when a user navigates to an unconfigured route as follows:
         </p>
-        <img src="/07.png" />
+        <img src="/07.png" className="img_maiwand" />
       </div>
       <div className="full_container">
         <p className="mainparagraph">
