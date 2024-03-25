@@ -1,0 +1,17 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  background-color: rgb(54, 162, 162);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.navbar_link {
+  background-color: rgb(25, 57, 106);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}

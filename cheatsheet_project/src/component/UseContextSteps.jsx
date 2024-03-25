@@ -74,7 +74,7 @@ function UseContextSteps() {
           </div>
         ) : null}
 
-        <p>Example: ThemeContext.jsx</p>
+        <p className={styles.example_step}>Example: ThemeContext.jsx</p>
         <Switch style={{ marginTop: "1rem" }}>GOT IT!</Switch>
       </div>
       <div>
@@ -98,7 +98,9 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>Example: import &#123;createContext&#125; from "react"</p>
+        <p className={styles.example_step}>
+          Example: import &#123;createContext&#125; from "react"
+        </p>
         <Switch style={{ marginTop: "1rem" }}>GOT IT!</Switch>
       </div>
       <div>
@@ -121,7 +123,9 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>Example: export const ThemeContext = createContext()</p>
+        <p className={styles.example_step}>
+          Example: export const ThemeContext = createContext()
+        </p>
         <Switch style={{ marginTop: "1rem" }}>GOT IT!</Switch>
       </div>
       <div>
@@ -145,7 +149,7 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example: export default function
           ThemeContextProvider(props)&#123;&#125;
         </p>
@@ -177,7 +181,7 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example: &lt;ThemeContext.Provider&gt;&#123;props.children&#125;
           &lt;/ThemeContext.Provider&gt;
         </p>
@@ -207,7 +211,7 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example: &lt;ThemeContext.Provider value=&#123;&#123;&#125;&#125;&gt;
         </p>
         <Switch style={{ marginTop: "1rem" }}>GOT IT!</Switch>
@@ -240,10 +244,10 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example: const &#91;isLightTheme,setIsLightTheme&#93; = useState(true)
         </p>
-        <p>
+        <p className={styles.example_step}>
           &lt;ThemeContext.Provider
           value=&#123;&#123;isLightTheme&#125;&#125;&gt;props.children&#125;
           &lt;/ThemeContext.Provider&gt;
@@ -292,10 +296,12 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example:
-          <p>import ThemeContextProvider from ". /.."</p>
-          <p>
+          <p className={styles.example_step}>
+            import ThemeContextProvider from ". /.."
+          </p>
+          <p className={styles.example_step}>
             render( &lt;ThemeContextProvider&gt;&lt;/App&gt;
             &lt;/ThemeContextProvider&gt;)
           </p>
@@ -342,7 +348,7 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-        <p>
+        <p className={styles.example_step}>
           Example:
           <p>import&#123;useContext&#125; from "react"</p>
           <p>import &#123;ThemeContext&#125; from ". /.."</p>
@@ -388,8 +394,10 @@ function UseContextSteps() {
             </p>
           </div>
         ) : null}
-
-        <p>const &#123;isLightTheme&#125; = useContext(ThemeContext) </p>
+        <p className={styles.example_step}>
+          Example:
+          <p>const &#123;isLightTheme&#125; = useContext(ThemeContext) </p>
+        </p>
         <Switch style={{ marginTop: "1rem" }}>GOT IT!</Switch>
       </div>
     </div>
