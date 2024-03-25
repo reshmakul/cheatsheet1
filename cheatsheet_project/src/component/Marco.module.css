@@ -1,0 +1,31 @@
+.main_marco_container {
+  margin: 3rem;
+}
+.main_marco_cointainer_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.titles_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
