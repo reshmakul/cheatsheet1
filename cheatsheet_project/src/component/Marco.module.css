@@ -1,5 +1,5 @@
 .main_marco_container {
-  margin: 3rem;
+  margin: 2rem;
 }
 .main_marco_cointainer_top {
   display: flex;
@@ -10,7 +10,7 @@
   padding: 1rem;
   border: 1px solid white;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgba(54, 162, 162, 0.492);
   text-align: center;
 }
 
@@ -24,8 +24,23 @@
   border-radius: 10px;
   background-color: white;
   text-align: center;
-
+  background-color: rgb(54, 162, 162);
   padding: 1rem;
   font-size: 1.5rem;
   align-items: center;
+}
+
+.W_titles {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.main_marco_container_top_title {
+  font-size: 1.75rem;
+  background-color: rgba(54, 162, 162, 0.492);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.main_marco_container_bottom_title {
+  font-size: 1.5rem;
 }
