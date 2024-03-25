@@ -1,0 +1,23 @@
+.title_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.provider_title {
+  color: green;
+  font-size: 2.5rem;
+}
+
+.value_title {
+  color: red;
+  font-size: 2.5rem;
+}
+.consumers_title {
+  color: blue;
+  font-size: 2.5rem;
+}
